@@ -1,6 +1,6 @@
-import { World } from "/world.js";
-import { AppArea } from "/app.js";
-import { PortalSystem } from "./systems/portals.js";
+import { World } from "./world.js";
+import { AppArea } from "./app.js";
+import { PortalSystem } from "./portals.js";
 
 export function main() {
 
@@ -51,3 +51,4 @@ export function main() {
 
   loop(0);
 }
+
